@@ -16,13 +16,7 @@ const _renderEntries = entries => {
     )
   }
 
-  return (
-    <StyledCard
-      id={1}
-      guestMessage='No one has signed the guest book.'
-      guestName=':('
-    />
-  )
+  return <StyledCard id={1} guestMessage='No one.' guestName=':(' />
 }
 const Entries = props => _renderEntries(props.entries)
 
